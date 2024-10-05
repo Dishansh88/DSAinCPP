@@ -92,11 +92,7 @@ void del(int index)
     for(i=index;i<lastindex;i++)
         ptr[i]=ptr[i+1];
     lastindex--;
-} operator+(int a)
-{
-    
-   
-}
+} 
 int getelment(int index)
 {
     if(ptr==NULL)
